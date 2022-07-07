@@ -1,4 +1,3 @@
-springcloud-kafka-stream1/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -28,4 +27,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-
+### VS Code ###
+.vscode/
+/springcloud-kafka-stream1/target/
+/springboot-kafka-1/target/
