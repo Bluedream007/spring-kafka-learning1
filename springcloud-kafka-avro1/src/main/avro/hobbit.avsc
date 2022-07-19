@@ -1,0 +1,11 @@
+{
+  "namespace": "com.bluedream.sample.springcloudkafkaavro1.avro",
+  "type": "record",
+  "name": "Hobbit",
+  "fields": [
+    {
+      "name": "quote",
+      "type": "string"
+    }
+  ]
+}

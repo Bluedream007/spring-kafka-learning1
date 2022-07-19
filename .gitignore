@@ -31,3 +31,6 @@ build/
 .vscode/
 /springcloud-kafka-stream1/target/
 /springboot-kafka-1/target/
+/springcloud-kafka-avro1/mvnw.cmd
+/springcloud-kafka-avro1/.gitignore
+/springcloud-kafka-avro1/mvnw
