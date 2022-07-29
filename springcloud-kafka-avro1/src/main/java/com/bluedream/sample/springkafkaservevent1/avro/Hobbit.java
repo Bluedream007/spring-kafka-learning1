@@ -3,9 +3,8 @@
  *
  * DO NOT EDIT DIRECTLY
  */
-package com.bluedream.sample.springcloudkafkaavro1.avro;
+package com.bluedream.sample.springkafkaservevent1.avro;
 
-import org.apache.avro.generic.GenericArray;
 import org.apache.avro.specific.SpecificData;
 import org.apache.avro.util.Utf8;
 import org.apache.avro.message.BinaryMessageEncoder;
@@ -130,8 +129,8 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
    * Creates a new Hobbit RecordBuilder.
    * @return A new Hobbit RecordBuilder
    */
-  public static com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder newBuilder() {
-    return new com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder();
+  public static com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder newBuilder() {
+    return new com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder();
   }
 
   /**
@@ -139,11 +138,11 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
    * @param other The existing builder to copy.
    * @return A new Hobbit RecordBuilder
    */
-  public static com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder newBuilder(com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder other) {
+  public static com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder newBuilder(com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder other) {
     if (other == null) {
-      return new com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder();
+      return new com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder();
     } else {
-      return new com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder(other);
+      return new com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder(other);
     }
   }
 
@@ -152,11 +151,11 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
    * @param other The existing instance to copy.
    * @return A new Hobbit RecordBuilder
    */
-  public static com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder newBuilder(com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit other) {
+  public static com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder newBuilder(com.bluedream.sample.springkafkaservevent1.avro.Hobbit other) {
     if (other == null) {
-      return new com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder();
+      return new com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder();
     } else {
-      return new com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder(other);
+      return new com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder(other);
     }
   }
 
@@ -178,7 +177,7 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder other) {
+    private Builder(com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.quote)) {
         this.quote = data().deepCopy(fields()[0].schema(), other.quote);
@@ -190,7 +189,7 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
      * Creates a Builder by copying an existing Hobbit instance
      * @param other The existing instance to copy.
      */
-    private Builder(com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit other) {
+    private Builder(com.bluedream.sample.springkafkaservevent1.avro.Hobbit other) {
       super(SCHEMA$, MODEL$);
       if (isValidValue(fields()[0], other.quote)) {
         this.quote = data().deepCopy(fields()[0].schema(), other.quote);
@@ -212,7 +211,7 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
       * @param value The value of 'quote'.
       * @return This builder.
       */
-    public com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder setQuote(java.lang.CharSequence value) {
+    public com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder setQuote(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.quote = value;
       fieldSetFlags()[0] = true;
@@ -232,7 +231,7 @@ public class Hobbit extends org.apache.avro.specific.SpecificRecordBase implemen
       * Clears the value of the 'quote' field.
       * @return This builder.
       */
-    public com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit.Builder clearQuote() {
+    public com.bluedream.sample.springkafkaservevent1.avro.Hobbit.Builder clearQuote() {
       quote = null;
       fieldSetFlags()[0] = false;
       return this;

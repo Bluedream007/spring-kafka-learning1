@@ -34,3 +34,4 @@ build/
 /springcloud-kafka-avro1/mvnw.cmd
 /springcloud-kafka-avro1/.gitignore
 /springcloud-kafka-avro1/mvnw
+/springkafka-server-event1/target/

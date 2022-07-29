@@ -1,4 +1,4 @@
-package com.bluedream.sample.springcloudkafkaavro1;
+package com.bluedream.sample.springkafkaservevent1;
 
 import com.github.javafaker.Faker;
 
@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
-import com.bluedream.sample.springcloudkafkaavro1.avro.Hobbit;
+import com.bluedream.sample.springkafkaservevent1.avro.Hobbit;
 
 @SpringBootApplication
 public class SpringcloudKafkaAvro1Application {
